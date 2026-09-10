@@ -16,7 +16,7 @@ eps   = 0.5   # timescale of the recovery variable w (smaller = slower w)
 a     = 0.1   # sensitivity of w to subthreshold v
 c     = 0     # reset value of v after a spike
 d     = 1     # reset value of w after a spike
-w_0   = 1     # adaptation baseline -- the main "personality knob" of the neuron
+w_0   = -1     # adaptation baseline -- the main "personality knob" of the neuron
 w0    = w_0   # alias used throughout the code (kept for backward compatibility)
 
 # ── integration ──────────────────────────────────────────────────────────────
